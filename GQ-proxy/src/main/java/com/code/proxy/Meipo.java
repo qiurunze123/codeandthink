@@ -20,7 +20,7 @@ public class Meipo implements InvocationHandler {
 
     @Override
     public Object invoke(Object o, Method method, Object[] objects) throws Throwable {
-        System.out.println("我是媒婆，你的性别是"+this.targer.getSex());
+        System.out.println("我是媒婆，你的性别是");
         System.out.println("开始运行过滤.......");
         this.targer.findLove();
         method.invoke(this.targer,objects);
