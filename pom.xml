@@ -11,6 +11,7 @@
   <modules>
     <module>proxy</module>
     <module>GQ-proxy</module>
+      <module>GQ-factory</module>
   </modules>
 
   <name>codeandthink</name>
