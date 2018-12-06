@@ -15,6 +15,7 @@
       <module>GQ-delegate</module>
     <module>GQ-stragy</module>
     <module>GQ-prototype</module>
+    <module>GQ-template</module>
   </modules>
 
   <name>codeandthink</name>

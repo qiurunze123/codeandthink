@@ -5,8 +5,8 @@ public class CloneTest {
     public static void main(String[] args) {
         ConcretePrototype cp = new ConcretePrototype();
         cp.setAge(18);
-        cp.setName("Tom");
-        cp.list.add("Tom");
+        cp.setName("GQ");
+        cp.list.add("GQ");
         try {
             ConcretePrototype copy = (ConcretePrototype)cp.clone();
             System.out.println(cp.list == copy.list);
